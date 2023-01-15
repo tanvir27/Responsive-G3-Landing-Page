@@ -340,7 +340,8 @@ left: 150%; */
 /* owner section */
 .owner-section{
   margin-top: 50px;
-  margin-bottom: 50px;
+  /* background-color: #727272; */
+  /* margin-bottom: 50px; */
 }
 .heading-owner{
   color: #E02C6D;
@@ -351,19 +352,22 @@ left: 150%; */
 }
 .Owner{
   width: 1000px;
+  background-color: rgba(206, 231, 231, 0.514);
   margin: 0 auto;
   margin-top: 50px;
+  padding: 25px 0;
   display: flex;
   gap: 160px;
-
+  flex-direction: row;
+  justify-content: center;
  }
  .owner img{
   width: 312px;
  }
-  .Owner-banner{
+  /* .Owner-banner{
       height: 270px;
       height: 404px;
-  }
+  } */
 
   .Owner-info h2{
       font-size: 38px;
@@ -567,6 +571,9 @@ left: 150%; */
   
   }
   /* owwner section */
+  .owner-section{
+    margin-bottom: 20px;
+  }
   .heading-owner{
     font-size: 50px;
     text-align: center;
